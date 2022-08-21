@@ -81,6 +81,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Padding */
@@ -97,6 +98,11 @@ p {
 
 #navbar a {
     color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
 }
 
 #navbar h1 {
@@ -147,9 +153,14 @@ p {
     line-height: 1.7em;
 }
 
+#showcase-middle .showcase-bakery p {
+    color: #f2e8bf;
+    padding-top: 90px;
+}
+
 /* Home Info */
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -189,7 +200,6 @@ p {
     float: right;
     width: 50%;
     min-height: 100%;
-    
 }
 
 #about-info .info-left {
@@ -208,7 +218,7 @@ p {
 /* Testimonials */
 #testimonials {
     background: url('../img/background-011.jpeg') no-repeat center center/cover;
-    height: 600px;
+    height: 100%;
     padding-top: 100px;
 }
 
@@ -235,6 +245,7 @@ p {
 /* Contact Form */
 #contact-form .form-group {
     margin-bottom: 20px;
+    padding-left: 5px;
 }
 
 #contact-form label {
@@ -259,7 +270,14 @@ p {
     border-color: #f7c08a;
  }
 
- /* Bakery Specific */
+ #contact-form p {
+    padding-left: 5px;
+ }
+
+ #contact-form .text-primary {
+    padding-left: 5px;
+ }
+
  .showcase-bakery {
     background: url('../img/Portos-Bakery.jpg') no-repeat center center/cover;
     color: #444;

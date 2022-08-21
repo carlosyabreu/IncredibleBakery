@@ -1,9 +1,0 @@
-/* Smartphone */
-@media(max-width: 500px) {
-    background: orange;
-}
-
-/* Table */
-@media(ma-width: 768px) {
-    background: yellow;
-}
